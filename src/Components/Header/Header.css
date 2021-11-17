@@ -1,0 +1,24 @@
+.Header-Container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 10vh;
+}
+
+.Header-Wrapper {
+  display: flex;
+  align-items: center;
+  width: 90%;
+}
+
+.Header-Wrapper .logo {
+  display: flex;
+  width: 50%;
+  height: 10vh;
+}
+
+.Header-Wrapper .Menu {
+  display: flex;
+  width: 50%;
+  height: 10vh;
+}
