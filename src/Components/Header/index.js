@@ -18,6 +18,7 @@ function Header() {
           openMenu ?
              <div className="Hamburger-Menu"> 
              <button className="hamburger-icon" onClick={() => setopenMenu(false)}><AiOutlineClose /></button> 
+            <li>  <a className="active_link" > Home </a> </li>
              <a href="todos"> Todos </a>
              <a href="posts"> Posts </a>
              <a href="albums"> Albums </a>
@@ -28,6 +29,7 @@ function Header() {
         }
         </div>
         <div className="Link">
+        <a className="active_link" href="todos"> Home </a>
         <a href="todos"> Todos </a>
         <a href="posts"> Posts </a>
         <a href="albums"> Albums </a>
