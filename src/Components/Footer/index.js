@@ -23,7 +23,7 @@ function Footer() {
         </div>
       </div>
       <div>
-        <p id="development"> Development By : <a href="https://www.linkedin.com/feed/" target="_blank">Burak Pancar</a></p>
+        <p id="development"> Development By : <a href="https://www.linkedin.com/feed/" target="_blank" rel="noreferrer" >Burak Pancar</a></p>
       </div>
     </div>
   )
