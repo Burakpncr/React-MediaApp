@@ -30,7 +30,14 @@ function Todos() {
                  </div>
              </div> 
             )
-          }) : <div> Yükleniyor </div>
+          }) : <div> <div class="ui segment">
+          <div class="ui active inverted dimmer">
+            <div class="ui large text loader">Loading</div>
+          </div>
+          <p></p>
+          <p></p>
+          <p></p>
+        </div> </div>
         }
       </div>
     </div>

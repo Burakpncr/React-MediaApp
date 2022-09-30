@@ -14,13 +14,13 @@ function Home() {
       and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
       </div>
       <div className="Home-images">
-        <img />
+        
       </div>
       </div>
      
       <div className="Home-Wrapper">
       <div className="Home-images">
-      <img />
+      
       </div>
       <div className="Home-info">
       Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
