@@ -30,16 +30,18 @@ function Todos() {
                  </div>
              </div> 
             )
-          }) : <div> <div class="ui segment">
-          <div class="ui active inverted dimmer">
-            <div class="ui large text loader">Loading</div>
+          }) : <div>
+            <p class="placeholder-glow">
+  <span class="placeholder col-12"></span>
+</p>
+
+<p class="placeholder-wave">
+  <span class="placeholder col-12"></span>
+</p>
           </div>
-          <p></p>
-          <p></p>
-          <p></p>
-        </div> </div>
         }
       </div>
+
     </div>
   )
 }
