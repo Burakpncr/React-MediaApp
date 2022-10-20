@@ -1,15 +1,15 @@
-.Todos-Container{
+.Posts-Container{
   display: inline-block;
   width: 100%;
   height: 100vh;
 }
-.Todos-Wrapper {
+.Posts-Wrapper {
   display: block;
   justify-content: center;
   margin: 50px;
   height: 80vh;
 }
-.Todos-Card {
+.Posts-Card {
   display: block;
   margin-top: 20px;
   height: 10vh;
