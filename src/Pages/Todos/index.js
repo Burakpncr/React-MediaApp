@@ -23,7 +23,7 @@ function Todos() {
               return (
                 <div class="card todos-card-wrapper" style={{marginBottom:'10px'}}>
                   <div class="card-body">
-                    <h5 class="card-title">Todo</h5>
+                    <h5 class="card-title">Task {todo.id}</h5>
                     <h6 class="card-subtitle mb-2 text-muted">{todo.title}</h6>
                     <p class="card-text"> {todo.completed ? "Completed" : "Not Completed"}</p>
                   </div>

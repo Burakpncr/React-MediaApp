@@ -21,9 +21,10 @@ function Posts() {
           Posts ?
             Posts.map(post => {
               return (
-                <div class="card todos-card-wrapper" style={{marginBottom:'10px'}}>
+                <div class="card todos-card-wrapper" style={{ marginBottom: '10px' }}>
                   <div class="card-body">
-                    <h5 class="card-title">User</h5>
+                  <h5 class="card-title">{post.id}</h5>
+                    <h5 class="card-title">User {post.userId}</h5>
                     <h6 class="card-subtitle mb-2 text-muted">{post.title}</h6>
                     <h6 class="card-subtitle mb-2 text-muted">{post.body}</h6>
                     <p class="card-text"> </p>
@@ -34,14 +35,12 @@ function Posts() {
               <p class="placeholder-glow">
                 <span class="placeholder col-12"></span>
               </p>
-
               <p class="placeholder-wave">
                 <span class="placeholder col-12"></span>
               </p>
             </div>
         }
       </div>
-
     </div>
   )
 }
