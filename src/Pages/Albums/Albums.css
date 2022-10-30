@@ -1,0 +1,11 @@
+.Albums-Container{
+  display: inline-block;
+  width: 100%;
+  height: 100vh;
+}
+.Albums-Wrapper {
+  display: block;
+  justify-content: center;
+  margin: 50px;
+  height: 80vh;
+}
