@@ -5,6 +5,7 @@ import Home from './Pages/Home'
 import Todos from './Pages/Todos'
 import Posts from './Pages/Posts'
 import Albums from './Pages/Albums'
+import Users from './Pages/Users'
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Route path="todos" element={<Todos />} />
         <Route path="posts" element={<Posts />} />
         <Route path="albums" element={<Albums />} />
+        <Route path="users" element={<Users />} />
       </Routes>
      <Footer />
     </div>

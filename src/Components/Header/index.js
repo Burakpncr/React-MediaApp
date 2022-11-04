@@ -22,7 +22,7 @@ function Header() {
              <a href="todos"> Todos </a>
              <a href="posts"> Posts </a>
              <a href="albums"> Albums </a>
-             <a href="login"> Users </a>
+             <a href="users"> Users </a>
              </div> 
            : 
            <button className="hamburger-icon" onClick={() => setopenMenu(true)}><AiOutlineMenu /></button> 
@@ -33,7 +33,7 @@ function Header() {
         <a href="todos"> Todos </a>
         <a href="posts"> Posts </a>
         <a href="albums"> Albums </a>
-        <a href="login"> Users </a>
+        <a href="users"> Users </a>
         </div>
       </div>
       </div>
