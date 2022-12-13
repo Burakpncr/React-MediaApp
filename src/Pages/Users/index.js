@@ -22,9 +22,11 @@ import './Users.css'
             return (
               <div class="card todos-card-wrapper" style={{marginBottom:'10px'}}>
                 <div class="card-body">
-                  <h5 class="card-title">User {user.id}</h5>
-                  <h6 class="card-subtitle mb-2 text-muted"></h6> <a href="#">View Profile </a>
+                  <h5 class="card-title">{user.id + "-"+ user.username}</h5>
+                  <h6 class="card-subtitle mb-2 text-muted"></h6>  {user.name}
+                  <a href="#">View Profile </a>
                 </div>
+
               </div>
             )
           }) : <div>
